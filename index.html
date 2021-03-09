@@ -1,42 +1,116 @@
-﻿<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Киоск БашГУ</title>
-		<link href="css/main.css" rel="stylesheet" type="text/css">
-		<meta charset="UTF-8">
-						
-					</head>
-	<body>
-		<header id="id_311058">
-<img id="id_311064" height="45" src="pictures/png-transparent-information-computer-icons-information-miscellaneous-text-trademark.png" width="45">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Киоск БашГУ</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            transition: 0.125s ease all;
+            overflow: hidden;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .header {
+            background: #094a8c;
+            color: white;
+            padding: 0.5em;
+        }
+        .bigbtn {
+            background: #094a8c;
+            color: white;
+            height: 120px;
+            width: 400px;
+            margin: 13% auto;
+            padding: 2em;
+            border-radius: 5px;
+        }
+        .bigbtn:hover {
+            background: #041f3c;
+        }
+        .bigbtn:active {
+            background: #041f3c;
+        }
+        .lefts, .rights {
+            width: 45%;
+        }
+        .lefts {
+            float: left;
+            position: absolute;
+        }
+        .rights {
+            float: right;
+        }
+        .bigbtn .bbl {
+            float: left;
+            font-size: 3em;
+        }
+        .bigbtn .bbr {
+            float: right;
+            width: 65%;
+            font-size: 1.8em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img id="id_311064" src="pictures/ability_logo_ru.png">
+    </div>
+    <div class="body">
+        <div class="lefts">
+            <a href="http://www.bashedu.ru/sveden">
+                <div class="bigbtn a1">
+                    <div class="bbl">
+                        <img src="pictures/ПреподБ.png"/>
+                    </div>
+                    <div class="bbr">
+                        Информационный стенд<br>для обучающегося, преподавателя	
+                    </div>
+                </div>
+            </a>
+            <a href="http://www.bashedu.ru/">
+                <div class="bigbtn a2">
+                    <div class="bbl">
+                        <img src="pictures/ЛогоСБ.png"/>
+                    </div>
+                    <div class="bbr">
+                        Официальный сайт БашГУ
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="rights">
+            <a href="https://pk.bashedu.ru/">
+                <div class="bigbtn a3">
+                    <div class="bbl">
+                        <img src="pictures/АбитурБ.png"/>
+                    </div>
+                    <div class="bbr">
+                        Информационный стенд для абитуриента
+                    </div>
+                </div>
+            </a>
+            <a href="http://www.bashedu.ru/">
+                <div class="bigbtn a4">
+                    <div class="bbl">
+                        <img src="pictures/СайтБ.png"/>
+                    </div>
+                    <div class="bbr">       
+                        Навигация
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="footer">
 
-		</img>
-		<img id="id_311086" src="pictures/ability_logo_ru.png">
-
-		</img>
-</header>
-<a href="http://www.bashedu.ru/sveden" id="id_311060">
-	<div >
-		<img src="pictures/ПреподБ.png"/>
-		
-	</div>
-	<div>
-	    Информационный стенд<br>для обучающегося, преподавателя	
-	</div>
-</a>
-
-<!--<button id="id_311060" onclick="location.href='http://www.bashedu.ru/sveden'" >
-Информационный стенд<br>для обучающегося, преподавателя
-</button>/-->
-
-<button id="id_311061" onclick="location.href='https://pk.bashedu.ru/'">
-Информационный стенд для абитуриента
-</button><button id="id_311083" onclick="location.href='http://www.bashedu.ru/'">
-Официальный сайт БашГУ
-</button>
-<button id="id_311084" onclick="location.href='http://www.bashedu.ru/'">
-Навигация
-</button>
-
-	</body>
+    </div>
+</body>
 </html>
