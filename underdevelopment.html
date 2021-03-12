@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница в находится разработке</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            transition: 0.125s ease all;
+            overflow: hidden;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .header {
+            background: #094a8c;
+            color: white;
+            padding: 0.5vh;
+            position: fixed;
+            width: 100%;
+        }
+        .centerblock {
+            max-width: 60%;
+            display: inline-block;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #094a8c;
+            color: white;
+            padding: 5vh;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .centerblock * {
+            padding: 0.5em 0;
+        }
+        .centerblock .title {
+            font-size: 24px;
+        }
+        .centerblock .info {
+            font-size: 20px;
+            font-weight: 200;
+        }
+        @media screen and (max-device-width: 1220px) {
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img id="id_311064" src="https://marbad-code.github.io/pictures/ability_logo_ru.png">
+    </div>
+    <a href="#" onclick="history.back();">
+        <div class="centerblock">
+            <div class="title">Данная страница находится в разработке</div>
+            <div class="info">Чтобы вернуться, нажмите на этот блок</div>
+        </div>
+    </a>
+</body>
+</html>

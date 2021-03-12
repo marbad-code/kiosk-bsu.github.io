@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,10 +27,10 @@
         .bigbtn {
             background: #094a8c;
             color: white;
-            height: 15vh;
-            width: 25vw;
-            margin: 17vh auto;
-            padding: 5vh;
+            height: 7em;
+            width: 25em;
+            margin: 19% auto;
+            padding: 1.85em 2em;
             border-radius: 5px;
         }
         .bigbtn:hover {
@@ -40,7 +40,7 @@
             background: #041f3c;
         }
         .lefts, .rights {
-            width: 45%;
+            margin: 6em 10.5em;
         }
         .lefts {
             float: left;
@@ -54,13 +54,62 @@
             font-size: 10vh;
         }
         .bigbtn .bbl img {
-            width: 15vh;
+            height: 1.45em;
+            width: auto;
         }
         .bigbtn .bbr {
             float: right;
-            width: 65%;
-            font-size: 3vh;
+            width: 11em;
+            padding: 0.4em 0;
+            font-size: 1.4em;
             text-align: center;
+        }
+        @media screen and (max-device-width: 1480px) {
+            .bigbtn {
+                height: 7em;
+                width: 20em;
+            }
+            .bigbtn .bbl img {
+                width: auto;
+                height: 1.5em;
+            }
+            .bigbtn .bbl {
+            }
+            .bigbtn .bbr {
+                width: 60%;
+                font-size: 1.25em;
+            }
+        }
+        @media screen and (max-device-width: 1220px) {
+            /*.bigbtn .bbl img {
+                height: 1.35em;
+            }
+            .bigbtn .bbl {
+                width: 35%;
+            }
+            .bigbtn .bbr {
+                width: 60%;
+            }*/
+        }
+        @media screen and (max-device-width: 1250px) {
+            .lefts, .rights {
+                width: 40em;
+            }
+            .bigbtn {
+                height: 6em;
+                width: 17em;
+            }
+            .bigbtn .bbl img {
+                width: auto;
+                height: 1.25em;
+            }
+            .bigbtn .bbl {
+                width: 1.35em;
+            }
+            .bigbtn .bbr {
+                width: 10em;
+                font-size: 0.95em;
+            }
         }
     </style>
 </head>
@@ -102,7 +151,7 @@
                     </div>
                 </div>
             </a>
-            <a href="https://bashedu.ru/ru/sitemap">
+            <a href="/underdevelopment.html">
                 <div class="bigbtn a4">
                     <div class="bbl">
                         <img src="https://marbad-code.github.io/pictures/СайтБ.png"/>
