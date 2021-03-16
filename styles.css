@@ -1,0 +1,71 @@
+ /*
+background: #094a8c; Main color
+background: #041f3c; Activate color
+box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 25%); Shadow
+*/
+* {
+  transition: all 125ms ease;
+  line-height: 1.7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:active {
+  box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 25%);
+}
+
+.header {
+  background: #094a8c;
+  color: white;
+  padding: 0.5vh;
+  position: fixed;
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  padding: 10em 0;
+}
+
+.content .button {
+  width: 30em;
+  margin: 3em auto;
+  padding: 2em 2em 1.5em;
+  background: #094a8c;
+  border-radius: 5px;
+}
+
+.content .button:active {
+  background: #041f3c;
+}
+
+.content .button .picture {
+  width: 10em;
+  float: left;
+  text-align: center;
+}
+
+.content .button .text {
+  width: 15em;
+  float: right;
+  color: #fFFFFF;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+.footer {
+  color: #000;
+}
